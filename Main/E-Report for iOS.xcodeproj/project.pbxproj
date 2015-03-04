@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C4C08501AA7AB91006814F4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C084F1AA7AB91006814F4 /* Parse.framework */; };
+		9C4C08521AA7ABA0006814F4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C08511AA7ABA0006814F4 /* Bolts.framework */; };
+		9C4C08541AA7AC7B006814F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C08531AA7AC7B006814F4 /* CFNetwork.framework */; };
+		9C4C08561AA7AC86006814F4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C08551AA7AC86006814F4 /* CoreLocation.framework */; };
+		9C4C08581AA7ACA5006814F4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C08571AA7ACA5006814F4 /* MobileCoreServices.framework */; };
+		9C4C085A1AA7ACB9006814F4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C08591AA7ACB9006814F4 /* Security.framework */; };
+		9C4C085C1AA7ACE0006814F4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C085B1AA7ACE0006814F4 /* libz.dylib */; };
+		9C4C085E1AA7ACED006814F4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C085D1AA7ACED006814F4 /* libsqlite3.dylib */; };
+		9C4C08601AA7B059006814F4 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C085F1AA7B059006814F4 /* Twitter.framework */; };
+		9C4C08621AA7B0E8006814F4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C08611AA7B0E8006814F4 /* Social.framework */; };
+		9C4C08641AA7B117006814F4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C08631AA7B117006814F4 /* Accounts.framework */; };
 		A61D5ED617A4C7CF00A37E27 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = A61D5EC817A4C7CF00A37E27 /* background.png */; };
 		A61D5ED717A4C7CF00A37E27 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A61D5EC917A4C7CF00A37E27 /* background@2x.png */; };
 		A61D5ED817A4C7CF00A37E27 /* EmptyContact.png in Resources */ = {isa = PBXBuildFile; fileRef = A61D5ECA17A4C7CF00A37E27 /* EmptyContact.png */; };
@@ -34,8 +45,6 @@
 		A61D5F1817A4E81300A37E27 /* Birthdays@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A61D5F0617A4E81300A37E27 /* Birthdays@2x.png */; };
 		A61D5F1917A4E81300A37E27 /* Button-info.png in Resources */ = {isa = PBXBuildFile; fileRef = A61D5F0717A4E81300A37E27 /* Button-info.png */; };
 		A61D5F1A17A4E81300A37E27 /* Button-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A61D5F0817A4E81300A37E27 /* Button-info@2x.png */; };
-		A61D5F1B17A4E81300A37E27 /* Chores.png in Resources */ = {isa = PBXBuildFile; fileRef = A61D5F0917A4E81300A37E27 /* Chores.png */; };
-		A61D5F1C17A4E81300A37E27 /* Chores@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A61D5F0A17A4E81300A37E27 /* Chores@2x.png */; };
 		A61D5F1D17A4E81300A37E27 /* Computer.png in Resources */ = {isa = PBXBuildFile; fileRef = A61D5F0B17A4E81300A37E27 /* Computer.png */; };
 		A61D5F1E17A4E81300A37E27 /* Computer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A61D5F0C17A4E81300A37E27 /* Computer@2x.png */; };
 		A61D5F1F17A4E81300A37E27 /* Electronics.png in Resources */ = {isa = PBXBuildFile; fileRef = A61D5F0D17A4E81300A37E27 /* Electronics.png */; };
@@ -96,6 +105,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C4C084F1AA7AB91006814F4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		9C4C08511AA7ABA0006814F4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		9C4C08531AA7AC7B006814F4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9C4C08551AA7AC86006814F4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9C4C08571AA7ACA5006814F4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9C4C08591AA7ACB9006814F4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9C4C085B1AA7ACE0006814F4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9C4C085D1AA7ACED006814F4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		9C4C085F1AA7B059006814F4 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		9C4C08611AA7B0E8006814F4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9C4C08631AA7B117006814F4 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		A61D5EC817A4C7CF00A37E27 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		A61D5EC917A4C7CF00A37E27 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		A61D5ECA17A4C7CF00A37E27 /* EmptyContact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EmptyContact.png; sourceTree = "<group>"; };
@@ -124,8 +144,6 @@
 		A61D5F0617A4E81300A37E27 /* Birthdays@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Birthdays@2x.png"; sourceTree = "<group>"; };
 		A61D5F0717A4E81300A37E27 /* Button-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-info.png"; sourceTree = "<group>"; };
 		A61D5F0817A4E81300A37E27 /* Button-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-info@2x.png"; sourceTree = "<group>"; };
-		A61D5F0917A4E81300A37E27 /* Chores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chores.png; sourceTree = "<group>"; };
-		A61D5F0A17A4E81300A37E27 /* Chores@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chores@2x.png"; sourceTree = "<group>"; };
 		A61D5F0B17A4E81300A37E27 /* Computer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Computer.png; sourceTree = "<group>"; };
 		A61D5F0C17A4E81300A37E27 /* Computer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Computer@2x.png"; sourceTree = "<group>"; };
 		A61D5F0D17A4E81300A37E27 /* Electronics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Electronics.png; sourceTree = "<group>"; };
@@ -168,14 +186,14 @@
 		A64C38441927F2CD00CE1100 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
 		A64C38451927F2CD00CE1100 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
 		A64C38461927F2CD00CE1100 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		A6E8AA41179D1D6E00042C02 /* Maintenance Tracker for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maintenance Tracker for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8AA41179D1D6E00042C02 /* E-Report for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Report for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E8AA44179D1D6E00042C02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A6E8AA46179D1D6E00042C02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6E8AA48179D1D6E00042C02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A6E8AA4C179D1D6E00042C02 /* Maintenance Tracker for iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Maintenance Tracker for iOS-Info.plist"; sourceTree = "<group>"; };
+		A6E8AA4C179D1D6E00042C02 /* E-Report for iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "E-Report for iOS-Info.plist"; sourceTree = "<group>"; };
 		A6E8AA4E179D1D6E00042C02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6E8AA50179D1D6E00042C02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6E8AA52179D1D6E00042C02 /* Maintenance Tracker for iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Maintenance Tracker for iOS-Prefix.pch"; sourceTree = "<group>"; };
+		A6E8AA52179D1D6E00042C02 /* E-Report for iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "E-Report for iOS-Prefix.pch"; sourceTree = "<group>"; };
 		A6E8AA56179D1D6E00042C02 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A6E8AA58179D1D6E00042C02 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A6E8AA5A179D1D6E00042C02 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -217,18 +235,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4C08641AA7B117006814F4 /* Accounts.framework in Frameworks */,
+				9C4C08621AA7B0E8006814F4 /* Social.framework in Frameworks */,
+				9C4C08601AA7B059006814F4 /* Twitter.framework in Frameworks */,
+				9C4C085E1AA7ACED006814F4 /* libsqlite3.dylib in Frameworks */,
+				9C4C085C1AA7ACE0006814F4 /* libz.dylib in Frameworks */,
 				A6FBDB011917A48B0048C46D /* SystemConfiguration.framework in Frameworks */,
 				A6FBDAFF1917A4810048C46D /* StoreKit.framework in Frameworks */,
+				9C4C085A1AA7ACB9006814F4 /* Security.framework in Frameworks */,
+				A6E8AAC8179D36D000042C02 /* QuartzCore.framework in Frameworks */,
+				9C4C08581AA7ACA5006814F4 /* MobileCoreServices.framework in Frameworks */,
+				A6E8AA49179D1D6E00042C02 /* CoreGraphics.framework in Frameworks */,
+				9C4C08561AA7AC86006814F4 /* CoreLocation.framework in Frameworks */,
+				9C4C08541AA7AC7B006814F4 /* CFNetwork.framework in Frameworks */,
+				A6FBDAF71917A44E0048C46D /* AudioToolbox.framework in Frameworks */,
 				A6FBDAFD1917A4760048C46D /* MessageUI.framework in Frameworks */,
 				A6FBDAFB1917A46B0048C46D /* CoreTelephony.framework in Frameworks */,
 				A6FBDAF91917A4590048C46D /* AVFoundation.framework in Frameworks */,
 				A64C38471927F2CD00CE1100 /* libGoogleAdMobAds.a in Frameworks */,
-				A6FBDAF71917A44E0048C46D /* AudioToolbox.framework in Frameworks */,
+				9C4C08501AA7AB91006814F4 /* Parse.framework in Frameworks */,
 				A6FBDAF51917A4470048C46D /* AdSupport.framework in Frameworks */,
-				A6E8AAC8179D36D000042C02 /* QuartzCore.framework in Frameworks */,
 				A6E8AA45179D1D6E00042C02 /* UIKit.framework in Frameworks */,
 				A6E8AA47179D1D6E00042C02 /* Foundation.framework in Frameworks */,
-				A6E8AA49179D1D6E00042C02 /* CoreGraphics.framework in Frameworks */,
+				9C4C08521AA7ABA0006814F4 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +313,6 @@
 				A61D5F0617A4E81300A37E27 /* Birthdays@2x.png */,
 				A61D5F0717A4E81300A37E27 /* Button-info.png */,
 				A61D5F0817A4E81300A37E27 /* Button-info@2x.png */,
-				A61D5F0917A4E81300A37E27 /* Chores.png */,
-				A61D5F0A17A4E81300A37E27 /* Chores@2x.png */,
 				A61D5F0B17A4E81300A37E27 /* Computer.png */,
 				A61D5F0C17A4E81300A37E27 /* Computer@2x.png */,
 				A61D5F0D17A4E81300A37E27 /* Electronics.png */,
@@ -323,9 +350,11 @@
 		A6E8AA38179D1D6E00042C02 = {
 			isa = PBXGroup;
 			children = (
+				9C4C08511AA7ABA0006814F4 /* Bolts.framework */,
+				9C4C084F1AA7AB91006814F4 /* Parse.framework */,
 				A61D5EC517A4C7CF00A37E27 /* Resources */,
 				A6E8AA67179D1FD400042C02 /* Classes */,
-				A6E8AA4A179D1D6E00042C02 /* Maintenance Tracker */,
+				A6E8AA4A179D1D6E00042C02 /* E-Report */,
 				A6E8AA43179D1D6E00042C02 /* Frameworks */,
 				A6E8AA42179D1D6E00042C02 /* Products */,
 			);
@@ -334,7 +363,7 @@
 		A6E8AA42179D1D6E00042C02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6E8AA41179D1D6E00042C02 /* Maintenance Tracker for iOS.app */,
+				A6E8AA41179D1D6E00042C02 /* E-Report for iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -342,6 +371,15 @@
 		A6E8AA43179D1D6E00042C02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9C4C08631AA7B117006814F4 /* Accounts.framework */,
+				9C4C08611AA7B0E8006814F4 /* Social.framework */,
+				9C4C085F1AA7B059006814F4 /* Twitter.framework */,
+				9C4C085D1AA7ACED006814F4 /* libsqlite3.dylib */,
+				9C4C085B1AA7ACE0006814F4 /* libz.dylib */,
+				9C4C08591AA7ACB9006814F4 /* Security.framework */,
+				9C4C08571AA7ACA5006814F4 /* MobileCoreServices.framework */,
+				9C4C08551AA7AC86006814F4 /* CoreLocation.framework */,
+				9C4C08531AA7AC7B006814F4 /* CFNetwork.framework */,
 				A6FBDB001917A48B0048C46D /* SystemConfiguration.framework */,
 				A6FBDAFE1917A4810048C46D /* StoreKit.framework */,
 				A6FBDAFC1917A4760048C46D /* MessageUI.framework */,
@@ -357,23 +395,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A6E8AA4A179D1D6E00042C02 /* Maintenance Tracker */ = {
+		A6E8AA4A179D1D6E00042C02 /* E-Report */ = {
 			isa = PBXGroup;
 			children = (
 				A6E8AA5C179D1D6E00042C02 /* MainStoryboard.storyboard */,
 				A639E403190BE79500D0F10C /* MainStoryboard-iPad.storyboard */,
 				A6E8AA4B179D1D6E00042C02 /* Supporting Files */,
 			);
+			name = "E-Report";
 			path = "Maintenance Tracker";
 			sourceTree = "<group>";
 		};
 		A6E8AA4B179D1D6E00042C02 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A6E8AA4C179D1D6E00042C02 /* Maintenance Tracker for iOS-Info.plist */,
+				A6E8AA4C179D1D6E00042C02 /* E-Report for iOS-Info.plist */,
 				A6E8AA4D179D1D6E00042C02 /* InfoPlist.strings */,
 				A6E8AA50179D1D6E00042C02 /* main.m */,
-				A6E8AA52179D1D6E00042C02 /* Maintenance Tracker for iOS-Prefix.pch */,
+				A6E8AA52179D1D6E00042C02 /* E-Report for iOS-Prefix.pch */,
 				A6E8AA56179D1D6E00042C02 /* Default.png */,
 				A6E8AA58179D1D6E00042C02 /* Default@2x.png */,
 				A6E8AA5A179D1D6E00042C02 /* Default-568h@2x.png */,
@@ -486,9 +525,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6E8AA40179D1D6E00042C02 /* Maintenance Tracker for iOS */ = {
+		A6E8AA40179D1D6E00042C02 /* E-Report for iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E8AA64179D1D6E00042C02 /* Build configuration list for PBXNativeTarget "Maintenance Tracker for iOS" */;
+			buildConfigurationList = A6E8AA64179D1D6E00042C02 /* Build configuration list for PBXNativeTarget "E-Report for iOS" */;
 			buildPhases = (
 				A6E8AA3D179D1D6E00042C02 /* Sources */,
 				A6E8AA3E179D1D6E00042C02 /* Frameworks */,
@@ -498,9 +537,9 @@
 			);
 			dependencies = (
 			);
-			name = "Maintenance Tracker for iOS";
+			name = "E-Report for iOS";
 			productName = "Maintenance Tracker";
-			productReference = A6E8AA41179D1D6E00042C02 /* Maintenance Tracker for iOS.app */;
+			productReference = A6E8AA41179D1D6E00042C02 /* E-Report for iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -512,7 +551,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Kalai Chelvan";
 			};
-			buildConfigurationList = A6E8AA3C179D1D6E00042C02 /* Build configuration list for PBXProject "Maintenance Tracker for iOS" */;
+			buildConfigurationList = A6E8AA3C179D1D6E00042C02 /* Build configuration list for PBXProject "E-Report for iOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -524,7 +563,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6E8AA40179D1D6E00042C02 /* Maintenance Tracker for iOS */,
+				A6E8AA40179D1D6E00042C02 /* E-Report for iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -579,8 +618,6 @@
 				A639E41F190C154A00D0F10C /* Icon80x80.png in Resources */,
 				A61D5F1917A4E81300A37E27 /* Button-info.png in Resources */,
 				A61D5F1A17A4E81300A37E27 /* Button-info@2x.png in Resources */,
-				A61D5F1B17A4E81300A37E27 /* Chores.png in Resources */,
-				A61D5F1C17A4E81300A37E27 /* Chores@2x.png in Resources */,
 				A61D5F1D17A4E81300A37E27 /* Computer.png in Resources */,
 				A61D5F1E17A4E81300A37E27 /* Computer@2x.png in Resources */,
 				A61D5F1F17A4E81300A37E27 /* Electronics.png in Resources */,
@@ -702,16 +739,20 @@
 		A6E8AA65179D1D6E00042C02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Maintenance Tracker/Maintenance Tracker for iOS-Prefix.pch";
-				INFOPLIST_FILE = "Maintenance Tracker/Maintenance Tracker for iOS-Info.plist";
+				GCC_PREFIX_HEADER = "Maintenance Tracker/E-Report for iOS-Prefix.pch";
+				INFOPLIST_FILE = "Maintenance Tracker/E-Report for iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Classes/Admob",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Maintenance Tracker for iOS";
+				PRODUCT_NAME = "E-Report for iOS";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -720,16 +761,20 @@
 		A6E8AA66179D1D6E00042C02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Maintenance Tracker/Maintenance Tracker for iOS-Prefix.pch";
-				INFOPLIST_FILE = "Maintenance Tracker/Maintenance Tracker for iOS-Info.plist";
+				GCC_PREFIX_HEADER = "Maintenance Tracker/E-Report for iOS-Prefix.pch";
+				INFOPLIST_FILE = "Maintenance Tracker/E-Report for iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Classes/Admob",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Maintenance Tracker for iOS";
+				PRODUCT_NAME = "E-Report for iOS";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -738,7 +783,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6E8AA3C179D1D6E00042C02 /* Build configuration list for PBXProject "Maintenance Tracker for iOS" */ = {
+		A6E8AA3C179D1D6E00042C02 /* Build configuration list for PBXProject "E-Report for iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E8AA62179D1D6E00042C02 /* Debug */,
@@ -747,7 +792,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E8AA64179D1D6E00042C02 /* Build configuration list for PBXNativeTarget "Maintenance Tracker for iOS" */ = {
+		A6E8AA64179D1D6E00042C02 /* Build configuration list for PBXNativeTarget "E-Report for iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E8AA65179D1D6E00042C02 /* Debug */,

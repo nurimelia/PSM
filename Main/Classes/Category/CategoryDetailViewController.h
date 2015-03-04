@@ -1,9 +1,9 @@
 //
 //  CategoryDetailViewController.h
-//  Maintenance Tracker for iOS
+//  E-Report for iOS
 //
-//  Created by Kalai Chelvan on 26/4/14.
-//  Copyright (c) 2013 Kalai Chelvan. All rights reserved.
+//  Created by Nur Imelia on 08/03/15.
+//  Copyright (c) 2015 Nur Imelia. All rights reserved.
 //
 
 
@@ -26,7 +26,6 @@
 - (void)listDetailViewController:(CategoryDetailViewController *)controller didFinishEditingChecklist:(Checklist *)checklist;
 
 @end
-
 
 @interface CategoryDetailViewController : UITableViewController <
 UITextFieldDelegate, IconPickerViewControllerDelegate, UIImagePickerControllerDelegate,UINavigationControllerDelegate>{

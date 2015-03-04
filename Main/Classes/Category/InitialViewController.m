@@ -2,8 +2,8 @@
 //  InitialViewController.m
 //  Video Trimming Tool for iOS
 //
-//  Created by Kalai Chelvan on 18/5/14.
-//  Copyright (c) 2014 Kalai Chelvan. All rights reserved.
+//  Created by Nur Imelia on 08/03/15.
+//  Copyright (c) 2015 Nur Imelia. All rights reserved.
 //
 
 #import "InitialViewController.h"

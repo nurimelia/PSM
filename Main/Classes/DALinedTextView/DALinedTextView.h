@@ -2,8 +2,8 @@
 //  DALinedTextView.h
 //  DALinedTextView
 //
-//  Created by Daniel Amitay on 5/12/13.
-//  Copyright (c) 2013 Daniel Amitay. All rights reserved.
+//  Created by Nur Imelia on 08/03/15.
+//  Copyright (c) 2015 Nur Imelia. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

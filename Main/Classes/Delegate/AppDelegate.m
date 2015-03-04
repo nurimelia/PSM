@@ -1,13 +1,14 @@
 //
 //  AppDelegate.m
-//  Maintenance Tracker for iOS
+//  E-Report for iOS
 //
-//  Created by Kalai Chelvan on 26/4/14.
-//  Copyright (c) 2013 Kalai Chelvan. All rights reserved.
+//  Created by Nur Imelia on 08/03/15.
+//  Copyright (c) 2015 Nur Imelia. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "CategoryViewController.h"
+#import <Parse/Parse.h>
 
 #define SYSTEM_VERSION_LESS_THAN(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
 
@@ -19,7 +20,21 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // [Optional] Power your app with Local Datastore. For more info, go to
+    // https://parse.com/docs/ios_guide#localdatastore/iOS
+    [Parse enableLocalDatastore];
+
+    // Initialize Parse.
+    [Parse setApplicationId:@"Jr1ThYd3sxuT307hVFfAAiTJpgBQgb5x7AAM8nX0"
+                  clientKey:@"vFmNh59v7ykmEBb2XtQcChHCIvo7QbPLZBRwxMZl"];
     
+    // [Optional] Track statistics around application opens.
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    testObject[@"foo"] = @"bar";
+    [testObject saveInBackground];
    
     self.window.tintColor = [UIColor colorWithRed:0.0 green:0.6 blue:0.298 alpha:1.0];
 

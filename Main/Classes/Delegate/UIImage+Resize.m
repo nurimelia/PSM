@@ -7,6 +7,7 @@
 //
 
 #import "UIImage+Resize.h"
+#import "InitialViewController.h"
 
 @implementation UIImage_Resize
 

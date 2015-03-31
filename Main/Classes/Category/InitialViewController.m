@@ -42,22 +42,16 @@
 
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([segue.identifier isEqualToString:@"open"]) {
-        
-        
-    UINavigationController *navigationController = segue.destinationViewController;
-    controller = (CategoryViewController *)navigationController.topViewController;
-   
-    }
-    
-}
+
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (IBAction)done:(UIStoryboardSegue *)seque { [self.navigationController popViewControllerAnimated:YES];
 }
 
 

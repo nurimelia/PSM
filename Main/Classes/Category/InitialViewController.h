@@ -14,8 +14,8 @@
 @interface InitialViewController : UIViewController {
     
     CategoryViewController *controller;
-
-    
 }
+
+-(IBAction)done:(UIStoryboardSegue *)seque;
 
 @end

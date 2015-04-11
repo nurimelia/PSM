@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C3749431AD4D9550021AD3C /* UPNM.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9C3749421AD4D9550021AD3C /* UPNM.jpeg */; };
 		9C4C08501AA7AB91006814F4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C084F1AA7AB91006814F4 /* Parse.framework */; };
 		9C4C08521AA7ABA0006814F4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C08511AA7ABA0006814F4 /* Bolts.framework */; };
 		9C4C08541AA7AC7B006814F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4C08531AA7AC7B006814F4 /* CFNetwork.framework */; };
@@ -105,6 +106,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C3749421AD4D9550021AD3C /* UPNM.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UPNM.jpeg; sourceTree = "<group>"; };
 		9C4C084F1AA7AB91006814F4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		9C4C08511AA7ABA0006814F4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		9C4C08531AA7AC7B006814F4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -269,6 +271,7 @@
 			children = (
 				A639E405190C154A00D0F10C /* App icon */,
 				A64C38351927EFB600CE1100 /* cancel@2x.png */,
+				9C3749421AD4D9550021AD3C /* UPNM.jpeg */,
 				A64C38361927EFB600CE1100 /* cancel.png */,
 				A61D5EC817A4C7CF00A37E27 /* background.png */,
 				A61D5EC917A4C7CF00A37E27 /* background@2x.png */,
@@ -585,6 +588,7 @@
 				A61D5ED617A4C7CF00A37E27 /* background.png in Resources */,
 				A639E415190C154A00D0F10C /* Icon120x120.png in Resources */,
 				A61D5ED717A4C7CF00A37E27 /* background@2x.png in Resources */,
+				9C3749431AD4D9550021AD3C /* UPNM.jpeg in Resources */,
 				A639E417190C154A00D0F10C /* Icon152x152.png in Resources */,
 				A61D5ED817A4C7CF00A37E27 /* EmptyContact.png in Resources */,
 				A639E416190C154A00D0F10C /* Icon144x144.png in Resources */,

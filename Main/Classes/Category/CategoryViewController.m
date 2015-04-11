@@ -194,7 +194,8 @@
     //label.text = item.text;
     label.text = [NSString stringWithFormat:@"%d: %@", item.itemId, item.text];
  
-
+//label.text = [NSString stringWithFormat:@"%@: %@", item.notes, item.text];
+    
 }
 
 

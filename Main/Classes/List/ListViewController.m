@@ -67,7 +67,6 @@
     [bannerView_ loadRequest:[GADRequest request]];
     
     
-    
 }
 
 

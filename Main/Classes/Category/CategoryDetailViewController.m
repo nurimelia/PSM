@@ -8,6 +8,7 @@
 
 #import "Checklist.h"
 #import "CategoryDetailViewController.h"
+#import <Parse/Parse.h>
 
 @interface CategoryDetailViewController ()
 
@@ -147,6 +148,18 @@
         [self.delegate listDetailViewController:self didFinishEditingChecklist:self
          .checklistToEdit];
     }
+    
+    PFObject *laboratory = [PFObject objectWithClassName:@"laboratory"];
+    laboratory[@"Lab_Name"] = @"textField";
+    laboratory[@"Lab_Image"] = @"iconName";
+    [laboratory saveInBackground];
+    
+    // Set default ACLs
+    PFACL *defaultACL = [PFACL ACL];
+    [defaultACL setPublicReadAccess:YES];
+    [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];
+    
+
 }
 
 
@@ -164,6 +177,7 @@
     NSString *newText = [theTextField.text stringByReplacingCharactersInRange:range withString:string];
     self.doneBarButton.enabled = ([newText length] > 0);
     return YES;
+    
 }
 
 

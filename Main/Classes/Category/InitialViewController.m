@@ -23,7 +23,7 @@
     return self;
 }
 
-- (void)viewDidLoad
+/*- (void)viewDidLoad
 {
     [super viewDidLoad];
 
@@ -32,7 +32,7 @@
     
     self.navigationItem.leftBarButtonItem = left;
 
-}
+}*/
 
 
 -(void)openVideoController

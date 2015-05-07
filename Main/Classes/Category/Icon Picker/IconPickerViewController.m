@@ -49,17 +49,14 @@
     
     
     icons = [NSArray arrayWithObjects:
-             @" No Icon",
+             @"No Icon",
              @"Appointments",
-             @"Birthdays",
-             @"Button-info",
-             @"Chores",
              @"Computer",
              @"Electronics",
-             @"Folder",
-             @"Home",
-             @"Trips",
-
+             
+             
+             //@"Birthdays", @"Button-info",@"Chores",@"Folder",@"Home", @"Trips",
+            
              nil];
 }
 

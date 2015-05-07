@@ -3,7 +3,6 @@
 //  E-Report for iOS
 //
 //  Created by Nur Imelia on 4/5/15.
-//  Copyright (c) 2015 Kalai Chelvan. All rights reserved.
 //
 /*
 #ifndef E_Report_for_iOS_DefaultSettingsViewController_h
